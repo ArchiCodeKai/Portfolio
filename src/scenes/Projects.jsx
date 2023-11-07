@@ -12,20 +12,6 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const projectsData = [
-  {
-    title: "Project 1",
-    subtitle:
-      "This is a wedding invitation website I created for my first client. It includes user-friendly features and responsive design for various device sizes.",
-    url: "https://phmarriage.netlify.app/", //URL
-  },
-  {
-    title: "Project 2",
-    subtitle: "This is a grade sorting web.",
-    url: "https://gradesorting.netlify.app/", //URL
-  },
-];
-
 const Project = ({ title, subtitle, url }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition-500 bg-silver z-30 flex flex-col justify-center items-center text-center p-16 text-dee-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
