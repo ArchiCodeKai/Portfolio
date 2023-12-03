@@ -90,7 +90,11 @@ const Projects = () => {
           />
 
           {/*第二列*/}
-          <Project title="Project 3" subtitle="We are working on it." />
+          <Project
+            title="Project 3"
+            subtitle="This is my first MERN stack project. It allows users to register as either instructors or students and offers online courses."
+            url="https://mern-project01-edf5f22b9e0b.herokuapp.com/"
+          />
           <div className="flex justify-center text-center items-center p-10 bg-deep-grey max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
             SMOOTH USER EXPERIENCE
           </div>
