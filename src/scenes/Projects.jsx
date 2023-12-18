@@ -80,8 +80,8 @@ const Projects = () => {
 
           <Project
             title="Project 1"
-            subtitle="This is a wedding invitation website I created for my first client. It includes user-friendly features and responsive design for various device sizes."
-            url="https://phmarriage.netlify.app/"
+            subtitle="This is a Todo list app created using Next.js, Prisma, MongoDB, and Tailwind. It allows users to add and edit tasks."
+            url="https://todolist2023-6668e4b1cf06.herokuapp.com/"
           />
           <Project
             title="Project 2"
@@ -98,7 +98,11 @@ const Projects = () => {
           <div className="flex justify-center text-center items-center p-10 bg-deep-grey max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
             SMOOTH USER EXPERIENCE
           </div>
-          <Project title="Project 4" subtitle="We are working on it." />
+          <Project
+            title="Project 4"
+            subtitle="This is a wedding invitation website I created for my first client. It includes user-friendly features and responsive design for various device sizes."
+            url="https://phmarriage.netlify.app/"
+          />
 
           {/*第三列*/}
           <div className="flex justify-center text-center items-center p-10 bg-grey max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
